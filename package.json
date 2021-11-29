@@ -1,0 +1,29 @@
+{
+  "name": "egg-bookshelf",
+  "version": "1.0.0",
+  "description": "Bookshelf for egg",
+  "eggPlugin": {
+    "name": "bookshelf"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "files": [
+    "index.js",
+    "app.js",
+    "agent.js",
+    "config",
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "artisan",
+  "license": "ISC",
+  "dependencies": {
+    "bookshelf": "^1.2.0",
+    "bookshelf-modelbase": "^2.11.0",
+    "knex": "^0.95.14",
+    "mysql": "^2.18.1"
+  }
+}
